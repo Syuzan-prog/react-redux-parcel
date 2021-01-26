@@ -16,7 +16,7 @@ export const putData = (dataFromServer) => {
 
 export const fetchPosts = () => (dispatch) => {
   fetch("https://jsonplaceholder.typicode.com/posts")
-    .then((respons) => respons.json())
+    .then((response) => response.json())
     .then((json) => {
       dispatch(putData(json));
     });

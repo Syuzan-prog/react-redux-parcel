@@ -12,11 +12,11 @@ const App = () => {
           <PostForm />
         </div>
         <div className="col-6">
-          <h2>Sinxron post</h2>
+          <h2>Synchronous post</h2>
           <Posts />
         </div>
         <div className="col-6">
-          <h2>Asinxron post</h2>
+          <h2>Asynchronous post</h2>
           <FetchPost />
         </div>
       </div>

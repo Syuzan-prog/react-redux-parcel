@@ -5,8 +5,8 @@ import { fetchPosts } from "../redux/action";
 import Post from "./Post";
 
 export default () => {
-  const dispanch = useDispatch();
-  const onClick = () => dispanch(fetchPosts());
+  const dispatch = useDispatch();
+  const onClick = () => dispatch(fetchPosts());
   const posts = useSelector((state) => state.posts.data);
 
   if (!posts.length) {
