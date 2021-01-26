@@ -1,0 +1,3 @@
+export const CREATE_POSTS = "POST/CREATE_POSTS";
+export const FETCH_POSTS = "POST/FETCH_POSTS";
+
